@@ -53,7 +53,7 @@ def few_shot_train():
   else:
     SAVE_INTERVAL = 10000
     PRINT_INTERVAL = 1000
-    VAL_EPISODE = 10000
+    VAL_EPISODE = 1000
 
   with tf.Graph().as_default():
 

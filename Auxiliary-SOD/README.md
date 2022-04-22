@@ -8,10 +8,10 @@ This code requires the following:
 * TensorFlow v1.0+
 
 ## Data
-Please download the dataset below and put them into the 'data' folder. Or, you could change the path to datasets in dataloader.py. Note that we use pretrained [EGNet](https://github.com/JXingZhao/EGNet) to extract the saliency maps for the images in the following datasets.
-* miniImageNet: The train, val, and test splits follow [OPTIMIZATION AS A MODEL FOR FEW-SHOT LEARNING](https://github.com/twitter-research/meta-learning-lstm). Please download the dataset [here]() and put it  under 'data/miniimagenet/' folder. 
+Please download the dataset below and put them into the 'data' folder. Or, you could change the path to datasets in dataloader.py. Note that we use pretrained [EGNet](https://github.com/JXingZhao/EGNet) to extract the saliency maps for the images in the following datasets. To make the pretrained EGNet work well with low-resolution images, we pretraine EGNet with 84*84 images.
+* miniImageNet: The train, val, and test splits follow [OPTIMIZATION AS A MODEL FOR FEW-SHOT LEARNING](https://github.com/twitter-research/meta-learning-lstm). Please download the dataset [here](https://drive.google.com/drive/folders/1594hQunYPKySg7KVMonv0KZSAih4dkps?usp=sharing) and put it  under 'data/miniimagenet/' folder. 
 * tieredImageNet: The dataset and the train, val and test splits can be found at [Meta-Learning for Semi-Supervised Few-Shot Classification](https://github.com/renmengye/few-shot-ssl-public). To get the saliency maps, please use the pretrained EGNet to extract them.
-* CUB: The train, val and test splits follow [A Closer Look at Few-Shot Classification](https://github.com/wyharveychen/CloserLookFewShot). Please download the dataset [here]() and put it  under 'data/cub/' folder. 
+* CUB: The train, val and test splits follow [A Closer Look at Few-Shot Classification](https://github.com/wyharveychen/CloserLookFewShot). Please download the dataset [here](https://drive.google.com/drive/folders/14OXKJwh_BH7ey5rqOUxiat-ezeHV4xGY?usp=sharing) and put it  under 'data/cub/' folder. 
 
 
 ## Usage
